@@ -26,17 +26,17 @@ class Teacher extends Person {
 	}
 }
 //Example usuage
-const person = new Person("John", 25);
-console.log(person.name);
-person.age = 30;
+//const person = new Person("John", 25);
+//console.log(person.name);
+//person.age = 30;
 
-const student = new Student("Jane", 20);
-console.log(student.name); //jane
-person.study(); //jane is studing
+//const student = new Student("Jane", 20);
+//console.log(student.name); //jane
+//person.study(); //jane is studing
 
-const teacher = new Teacher("Bob", 35);
-console.log(teacher.name); //Bob
-person.teach(); //Bob is teaching
+//const teacher = new Teacher("Bob", 35);
+//console.log(teacher.name); //Bob
+//person.teach(); //Bob is teaching
 
 
 // Do not change the code below this line
